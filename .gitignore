@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pt
+
+# Virtual environment
+.venv/
+
+# Node
+node_modules/
+
+# Uploaded/Generated files
+upload/
+face_images/
+images/
+
+# Logs
+*.log
+
+#backend
+backend/__pycache__/
+backend/.env
+
+#frontend
+frontend/.node_modules/
+frontend/.next/
+frontend/.next-env.d.ts
