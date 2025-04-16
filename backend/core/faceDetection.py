@@ -4,7 +4,7 @@ import numpy as np
 from ultralytics import YOLO
 
 def process_image(image_path, output_folder):
-    model = YOLO("face_detection.pt")
+    model = YOLO("./face_detection.pt")
     image = cv2.imread(image_path)
     if image is None:
         return
@@ -13,7 +13,6 @@ def process_image(image_path, output_folder):
     face_folder = os.path.join(output_folder, f"{image_name}")
     
     if os.path.exists(face_folder):
-        print(f"Face folder {face_folder} already exists. Skipping detection.")
         return
     
     results = model.predict(image_path, iou=0.8, conf=0.3, verbose=False)

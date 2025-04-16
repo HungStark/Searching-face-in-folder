@@ -12,7 +12,7 @@ import uuid
 
 app = FastAPI()
 
-model = YOLO("face_detection.pt")
+model = YOLO("./face_detection.pt")
 SIMILARITY_THRESHOLD = 0.7
 
 def get_embedding_from_image(image_path):

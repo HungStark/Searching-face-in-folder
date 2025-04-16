@@ -11,7 +11,6 @@ def process_images_in_folder(root_folder):
                 json_path = os.path.splitext(image_path)[0] + ".json"
                 
                 if os.path.exists(json_path):
-                    print(f"JSON file {json_path} already exists. Skipping embedding calculation.")
                     continue 
                 
                 try:
