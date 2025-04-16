@@ -29,7 +29,7 @@ npm install .
 All images should be stored in the images folder following this structure:
 
 ```markdown
-face-recognization/
+Searching-face-in-folder/
 └── images/
     ├── folder1/
     │   ├── image1.jpg
@@ -42,13 +42,13 @@ face-recognization/
 Model face_detection.pt should be restored in root folder:
 
 ```markdown
-face-recognization/
+Searching-face-in-folder/
 └── face_detection.pt
 ```
 
 ## How to run
 
-From the face-recognization folder, start the full application (backend + frontend) with:
+From the Searching-face-in-folder, start the full application (backend + frontend) with:
 
 ```bash
 npm run dev
@@ -63,7 +63,7 @@ npm run dev
 3. Click **Detect Faces** to detect all faces in the selected folder.
 
 4. Click **Calculate Embedding** to extract face embeddings.
-⚠️ These two steps may take time depending on the number of images, but each folder only needs to go through them once.
+  ⚠️ These two steps may take time depending on the number of images, but each folder only needs to go through them once.
 
 5. Upload a photo using **Search my Face** that contains the face(s) you want to find.
 
