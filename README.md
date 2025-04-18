@@ -3,7 +3,7 @@
 ## Requirements
 
 - **Python**: Version 3.11  
-- **Node.js**: Required for running the frontend and managing dependencies
+- **Node.js**: v20
 
 ---
 
