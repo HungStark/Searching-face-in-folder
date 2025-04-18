@@ -8,6 +8,7 @@ __pycache__/
 
 # Node
 node_modules/
+package-lock.json
 
 # Uploaded/Generated files
 upload/
@@ -18,10 +19,7 @@ images/
 *.log
 
 #backend
-backend/__pycache__/
-backend/.env
+.env
 
 #frontend
-frontend/.node_modules/
-frontend/.next/
-frontend/.next-env.d.ts
+.next/
